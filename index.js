@@ -10,8 +10,9 @@ function palindrome(num){
 
   }
     console.log(reverse)
-num == reverse ? console.log(true) :console.log(false)
+num == reverse ? console.log("plaindrome") :console.log("not plaindrome")
 
 }
 
 palindrome(12321)
+palindrome(123)
